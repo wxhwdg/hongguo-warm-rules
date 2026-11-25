@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "routes": ["get", "post", "get_renew", "post_retry"],
+  "budget_ms": 20000,
+  "single_attempts": 2,
+  "guest_fallback": true,
+  "quality_aliases": {"1080": "1080", "720": "720", "480": "480"}
+}
